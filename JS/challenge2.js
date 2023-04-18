@@ -7,7 +7,7 @@ function multiply (a, b) { return a * b }
 function internal () {
     const added = this.add(this.internal.a, this.internal.b)
 	const multiplies = this.multiply(added, this.internal.c)
-    return multiplies
+    console.log( multiplies)
    
 }
 
